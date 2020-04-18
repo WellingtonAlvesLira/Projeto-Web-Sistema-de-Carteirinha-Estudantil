@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+
+<html>
+      <head>
+	       <title>Pagina Inicial</title>
+	       <meta charset="utf-8">
+		   <link rel="stylesheet" type="text/css" href="css/pagina-inicial.css">
+		   <script type="text/javascript" src="js/validar.js"></script>
+	  </head>
+
+
+<body>
+	<div id="b-navegacao">
+		<div id="menu">
+			<a href="index.html">home</a> |
+			<a href="sobre.html">sobre o passe estudantil</a>	|
+			<a href="postos-atendimento.html">postos de atendimentos</a> |
+			<a href="perguntas.html">perguntas frenquentes</a> |
+			<a href="contato.html">contato</a>
+		</div>
+	</div>
+		<img class="logo1" src="img/logo.jpg" />
+		<img class="logo2" src="img/logo-2.png" />
+	
+	<div id="entrar">
+		<img src="img/entrar.png">
+		<div id="formulario">
+			<form name="form_acessar" action="#" method="POST">
+			<h1><span class="cor-titulo">Faça seu login</span></h1>
+			<input  type="text" name="_matric"  placeholder="Informe sua matricula" class="campo"><br/>
+			<input  type="password" name="_senh" placeholder="Digite sua senha" class="campo"><br/>
+			<input  type="submit" value="ACESSAR" title="Acessar sua conta" onclick=" return validar()" class="btn">
+			<input  type="reset" value="LIMPAR" class="btn">
+		    </form>
+		    <br/><br/>ainda não é cadastrado?
+			<br/><br/><a href="cadastrar.html" target="_blank">Clique e cadastra-se!</a>
+		</div>
+    </div>
+            <span class="roda-pe">Todos os direitos reservados©</span>
+</body>
+</html>

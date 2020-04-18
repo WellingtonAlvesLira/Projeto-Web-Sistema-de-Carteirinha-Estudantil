@@ -1,0 +1,76 @@
+/*ESTILIZANDO A PÁGINA INICIAL*/
+* {
+ 
+    margin: 0;
+    padding: 0;
+   
+   }
+   
+   body{
+       font-size: 16px;
+       font-family: "Trebuchet MS", Helvetica, sans-serif ;
+       background: #dfdddd;
+   }
+   
+   #b-navegacao {
+       background: #9b9a9a;
+       width: 900px ;
+       height: 50px;
+       margin: 20px auto;
+   }
+   
+   #menu {
+       text-align: center;
+       padding-top: 25px;
+   }
+   
+   /*Formatando links de navegação*/
+   a{
+       text-decoration: none;
+       padding: 5px;
+   }
+   
+   a:visited{
+       color: #0040FF;
+   }
+   
+   a:hover {
+       color: #F7D358;
+   }
+   
+   a:active{
+       color: #FE9A2E;
+   }
+
+img {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    position: relative;
+    left: 235px;
+    
+}
+
+#area-perguntas{
+    background: white;
+    width: 90%;
+    margin: 15px auto;
+    padding: 30px;
+}
+h4 {
+    display: block ;
+    padding: 10px;
+}
+
+.duvidas {
+    margin: 15px;
+}
+
+.roda-pe{
+	display: block;
+	text-align: center;
+	font-weight: bold;
+	font-size: 15px;
+	margin: 10px 0 10px auto;
+}

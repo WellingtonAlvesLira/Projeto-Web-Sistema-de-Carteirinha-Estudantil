@@ -1,0 +1,82 @@
+/*FORMATAÇÃO PARA A PÁGINA SOBRE*/
+body {
+    background: #E6E6E6;
+    font-size: 16px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif ;
+  }
+  
+  #b-navegacao {
+    background: #F2F2F2;
+    width: 900px ;
+    height: 50px;
+    margin: 10px auto;
+  }
+  
+  #menu {
+    text-align: center;
+    padding-top: 25px;
+  }
+  
+  a:link{
+    text-decoration: none;
+    padding: 5px;
+    margin: 10px auto;
+  }
+  
+  a:visited{
+    color: #0040FF;
+  }
+  
+  a:hover {
+    color: #F7D358;
+  }
+  
+  a:active{
+    color: #FE9A2E;
+  }
+  
+  #publicacao {
+      width: 900px;
+      margin: 10px auto;
+      
+  }
+  
+  #postagem {
+      background: #fff;
+      margin-bottom: 5px;
+      padding: 5px 0 20px 0;
+      border-bottom: 5px solid #0040FF;
+      border-left: 5px solid #FE9A2E;
+      
+  }
+  
+  
+  .f-sobre {
+      display: block;
+      width: 40%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+  .titulo {
+      display: block;
+      padding: 0px 0 5px 10px;
+      text-decoration: underline;
+  }
+  
+  .texto {
+      margin: 10px 15px 10px 10px;
+  }
+  
+  .roda-pe{
+      display: block;
+      text-align: center;
+      font-weight: bold;
+      font-size: 15px;
+      margin: 10px 0 10px auto;
+  }
+  
+  .lista {
+      position: relative;
+      left: 30px;
+  }

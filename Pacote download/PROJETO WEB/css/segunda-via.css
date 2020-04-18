@@ -1,0 +1,81 @@
+* {
+ 
+    margin: 0;
+    padding: 0;
+ }
+   
+body{
+       
+    font-size: 16px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif ;
+}
+
+#container {
+    background-color: rgb(248, 165, 56);
+    height: 730px;
+}
+
+header{
+    background-color: white;
+    height: 80px;
+}
+
+img {
+    width: 90px;
+    height: 80px;
+    margin: 20px;
+}
+
+#n-log{
+    background-color: blue;
+    color: white;
+    font-size: 16pt;
+    padding-left: 40px;
+}
+
+#s_doc{
+    margin: 80px 0 0 15px;
+    border: 1px solid white;
+    background-color: #e2e5e7;
+    width: 500px;
+}
+
+h1{
+    text-align: center;
+}
+
+ul {
+    margin: 10px;   
+    padding-left: 30px; 
+}
+
+#s_form {
+    margin: 30px auto;
+    width: 700px;
+    background-color:  #e2e5e7;
+    padding: 50px;
+}
+
+.campo {
+    width: 300px;
+    height: 40px;
+    margin-bottom: 20px;
+    border: 1px solid white;
+}
+
+.btn {
+    color: white;
+    background-color: rgb(89, 105, 245);
+    border: 1px solid white;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.roda-pe{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 10px 0 10px auto;
+}

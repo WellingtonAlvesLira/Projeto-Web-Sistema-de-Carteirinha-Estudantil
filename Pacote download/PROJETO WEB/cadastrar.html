@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+
+<html>
+      <head>
+	       <title>Cadastramento</title>
+	       <meta charset="utf-8">
+           <link rel="stylesheet" type="text/css" href="css/cadastrar.css">
+           <script type="text/javascript" src="js/cadastrar.js"></script>
+	  </head>
+ <body>
+	      <header>
+               <h3>Criar Conta no Portal de Serviços</h3>
+         </header>
+               <h2>Preencha o formulário</h2>
+    <section>
+         <span class="obgc">Obrigatório os campos *</span>
+        <form name="cadastro_usu" action="#" method="POST">
+            <label>CPF<span class="obg">*</span></label><br/>
+               <input type="text" name="txtCPF" placeholder="ex: 000.000.000-00" class="campo"><br/><br/>
+            <label>Data de nascimento:<span class="obg">*</span></label><br/>
+               <input type="date" name="txtDN"><br/><br/>
+            <label>Nome:<span class="obg">*</span></label><br/>
+               <input type="text" name="txtN" class="campo"><br/><br/>
+            <label>Nome da Mãe:<span class="obg">*</span></label><br/>
+               <input type="text" name="txtNM" class="campo"><br/><br/>
+            <label>E-mail<span class="obg">*</span></label><br/>
+               <input type="email" name="txtE" placeholder="ex: @hotmial.com" class="campo"><br/><br/>
+            <label>Sexo:</label><br/>
+               <input type="radio" name="btns" value="Masculino" checked>Masculino</input>
+               <input type="radio" name="btns" value="Feminino" >Feminino</input><br/><br/>
+            <label>Senha:</label><br/>
+               <input type="password" name="txtP1"><br/><br/>
+            <label>Repetir:</label><br/>
+               <input type="password" name="txtP2"><br/><br/>
+               <span class="obs">A Senha deve conter: Mínimo 6 caracteres, uma letra maiúscula, um número. Não pode ter sequência de letras ou números: "abc" ou "123"</span>
+               <input class="btn" type="submit" value="SALVAR" onclick=" return cadastrar()">
+               <input type="reset" value="APAGAR" class="btn">
+        </form>
+    </section>
+</body>
+   
+</html>

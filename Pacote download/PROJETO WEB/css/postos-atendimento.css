@@ -1,0 +1,73 @@
+/*FORMATAÇÃO PARA A PÁGINA POSTOS DE ATENDIMENTO*/
+body {
+    background: #E6E6E6;
+    font-size: 16px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif ;
+  }
+  
+  #b-navegacao {
+    background: #F2F2F2;
+    width: 900px ;
+    height: 50px;
+    margin: 10px auto;
+  }
+  
+  #menu {
+    text-align: center;
+    padding-top: 25px;
+  }
+  
+  a:link{
+    text-decoration: none;
+    padding: 5px;
+    margin: 10px auto;
+  }
+  
+  a:visited{
+    color: #0040FF;
+  }
+  
+  a:hover {
+    color: #F7D358;
+  }
+  
+  a:active{
+    color: #FE9A2E;
+  }
+  
+ #p-atendimento {
+     background-color: #FE9A2E;
+     color: white;
+     font-size: 16pt;
+     padding-left: 20px;
+ }
+
+ .local {
+     display: block;
+     text-align: center;
+     font-weight: bold;
+     margin-top: 60px;
+ }
+
+ table {
+     background-color: white;
+     border-collapse: collapse;
+     width: 90%;
+     margin: 50px auto;
+ }
+
+ th {
+     color: seagreen;
+     text-align: left;
+     padding-left: 10px;
+     height: 50px;
+ }
+
+ tr {
+     border-bottom: 1px solid #505050;
+     height: 50px;
+}
+
+tr:hover {
+    background: rgb(234, 234, 235);
+}

@@ -1,0 +1,83 @@
+/*ESTILIZANDO A PÁGINA CADASTRAR*/
+* {
+ 
+    margin: 0;
+    padding: 0;
+ }
+   
+body{
+       
+    font-size: 16px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif ;
+}
+
+#b-navegacao {
+	background: #dfdddd;
+	width: 900px ;
+	height: 50px;
+	margin: 20px auto;
+}
+
+#menu {
+	text-align: center;
+	padding-top: 25px;
+}
+
+/*Formatando links de navegação*/
+a{
+	text-decoration: none;
+	padding: 5px;
+}
+
+a:visited{
+	color: #0040FF;
+}
+
+a:hover {
+	color: #F7D358;
+}
+
+a:active{
+	color: #FE9A2E;
+}
+
+#flc {
+    background-color: orange;
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+}
+
+.mvt {
+    position: absolute;
+    left: 40px;
+    top: 50px;
+}
+
+#fale_cons {
+    background-color: rgb(230, 221, 221);
+    width: 800px;
+    margin: 20px auto;
+    padding: 15px;
+}
+
+form {
+    background-color: rgb(233, 230, 225);
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+input {
+    width: 50%;
+    border: 1px solid transparent;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+
+.obg {
+    color: red;
+}
+
